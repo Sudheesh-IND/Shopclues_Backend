@@ -1,0 +1,27 @@
+
+
+                  Node server creation
+                  ....................
+1)npm init or npm init -y
+
+3)install express cors mongoose dotenv
+Express-framework for nodejs
+cors-connecting between 2 diffrent ports
+mongoose-connecting backend with the mongodb
+dotenv-Environment variableused to store secrets and configuration
+
+4)create .gitignore file -->for ignoring certain files while pushing
+5)create .env file
+            
+                   Mongodb atlas configuration
+                   ...........................
+6)Add connection string to .env file
+7)create connection.js file to connect node with mongodb
+8)user mongoose to connect mongobd with node application
+9)import connection.js inside index file
+10)creatte model/collection to store products
+create model foolder and create productSchema.js
+and then export model
+11)To define routes for client requests -routes/router.js
+12)create controller folder inorder to define the logic to 
+resolve api requests
